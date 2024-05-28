@@ -171,6 +171,9 @@ footer{
 
         width: 100%;
     }
+    nav{
+        font-size: 0.75rem;
+    }
     .sidebar.open{
         display: flex;
     }

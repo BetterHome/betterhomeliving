@@ -4,7 +4,7 @@ import slides from '../data/aboutPageImages.json';
 import {useEffect} from 'react';
 
 const containerStyles = {
-  width: "400px",
+  width: "375px",
   height: "500px",
   margin: "0 auto"
 };
@@ -42,7 +42,7 @@ export default function About() {
         <p>Whether you&apos;re starting from scratch with a new build or upgrading your existing comfort systems, our end-to-end installations have got you covered. From out-of-the-box setup to full installation, we ensure seamless service.</p>
         </span>
         <div style={containerStyles}>
-        <SlideShow slides={slides} parentWidth={400}/>
+        <SlideShow slides={slides} parentWidth={375}/>
         </div>
         </div>
       </section>
